@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background-color: #f5f6fa;
+  color: #2f3640;
+}
+
+header {
+  background-color: #273c75;
+  padding: 20px;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 60px 20px;
+  justify-content: space-around;
+  background-color: #dff9fb;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero h1 {
+  font-size: 36px;
+}
+
+.hero p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.profile-img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  background-color: #273c75;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #192a56;
+}
+
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.skills-list span {
+  background-color: #c7ecee;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-weight: 500;
+}
+
+.project-card {
+  margin-top: 20px;
+  background-color: #f1f2f6;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #dcdde1;
+  text-align: left;
+}
+
+.contact input,
+.contact textarea {
+  width: 90%;
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  display: block;
+}
+
+.contact textarea {
+  height: 100px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #273c75;
+  color: white;
+  margin-top: 40px;
+}
